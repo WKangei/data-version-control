@@ -1,5 +1,8 @@
 [core]
     analytics = false
     remote = remote_storage
+[cache]
+    dir = ../tmp_shared_cache
+    type = symlink
 ['remote "remote_storage"']
     url = ../path/to/your/dvc_remote
